@@ -9,10 +9,11 @@ Ensure you have the following installed:
 - Python 3.x
 - Google Chrome browser
 - ChromeDriver (automatically managed by `webdriver-manager`)
-- Required Python libraries:
-  ```bash
-  pip install selenium webdriver-manager beautifulsoup4 pandas
-  ```
+- selenium
+- webdriver-manager
+- beautifulsoup4
+- pandas
+
 
 ## How It Works
 1. **Setup WebDriver**: Initializes a Chrome browser using Selenium.
@@ -25,7 +26,7 @@ Ensure you have the following installed:
 ## Usage
 Run the script using:
 ```bash
-python scraper.py
+poetry run startup_data.py
 ```
 
 This will generate a CSV file containing the extracted data.
